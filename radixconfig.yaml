@@ -38,7 +38,7 @@ spec:
         - environment: prod
           variables:
             OAUTH2_PROXY_CLIENT_ID: "41039cd3-0c23-4d41-843f-2e33d93d83d6" # client id for the UI. Application exist under Azure Active Directory -> App registration
-            OAUTH2_PROXY_REDIRECT_URL: "https://si-pillars.app.playground.radix.equinor.com/oauth2/callback"
+            OAUTH2_PROXY_REDIRECT_URL: "https://test-si-pillars.app.playground.radix.equinor.com/oauth2/callback"
             OAUTH2_PROXY_SCOPE: "openid email" # UID is resource client id for API. Application exist under Azure Active Directory -> App registration
     # stores encrypted oauth sessions (access tokens)
     - name: auth-state
